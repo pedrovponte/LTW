@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Social</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <header>
+            <h1>Social Network</h1>
+            <img src="talk.jpg" alt="Logo" witdh="100" height="100">
+            <h2>Spy others and also be spied</h2>
+        </header>
+
+        <hr>
+
+        <nav>
+            <ul>
+                <li><a href="/">Friends</a></li>
+                <li><a href="/">Messages</a></li>
+                <li><a href="/">Notifications</a></li>
+                <li><a href="/">Settings</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <form>
+                <fieldset>
+                    <legend><strong>Personal data:</strong></legend>
+                    <img src="https://www.eguardtech.com/wp-content/uploads/2018/08/Network-Profile.png" alt="profile image" width="150" height="150">
+                    <br>
+                    <label><strong>Name:</strong>
+                        <input type="text" name="name" value="Pedro Ponte">
+                    <br>
+                    <label><strong>Birthday:</strong>
+                        <input type="date" value="2000-05-07">
+                    </label>
+                    <br>
+                    <label><strong>Country:</strong>
+                        <select name="country">
+                            <optgroup label="Europe">
+                                <option value="Portugal">Portugal</option>
+                                <option value="Spain">Spain</option>
+                                <option value="France">France</option>
+                            </optgroup>
+                            <optgroup label="South America">
+                                <option value="Brazil">Brazil</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Peru">Peru</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                    <br>
+                    <label><strong>E-mail:</strong>
+                        <input type="text" name="e-mail" value="up201809694@fe.up.pt">
+                    </label>
+                    <br>
+                    <label><strong>Personal details:</strong><br>
+                        <textarea name="description" rows="8" cols="50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, exercitationem rem quo molestias quidem commodi maxime minus voluptas facilis tenetur!</textarea>
+                    </label>
+                </fieldset>
+            </form>
+
+            <section>
+                <h2>Posts</h2>
+                <article>
+                    <img src="https://picsum.photos/id/100/300/200?id=1" alt="Beach image post"/>
+                    <p>Nunc est est, aliquet id porttitor vel, posuere vel elit. Quisque fermentum, eros et convallis hendrerit, quam leo tristique neque, a pharetra eros orci in velit.</p>
+                    <footer>
+                        <a href="comments.php?id=1">Comments(54)</a> 
+                        <br>
+                        <span class="date">26-09-2020</span>
+                    </footer>
+                    <hr>
+                </article>
+                <br>
+                <article>
+                    <img src="https://picsum.photos/id/1002/300?id=2" alt="Earth from space image post"/>
+                    <p>Vestibulum dapibus dui neque. Sed eu lectus facilisis, fringilla augue ut, vehicula velit.</p>
+                    <footer>
+                        <a href="comments.php?id=2">Comments(20)</a> 
+                        <br>
+                        <span class="date">25-09-2020</span>
+                    </footer>
+                    <hr>
+                </article>
+            </section>
+            <button formaction="newPost.php" formmethod="post">New Post</button>
+        </main>
+
+    </body>
+
+</html>

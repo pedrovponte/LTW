@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <form action="/" method="get">
+            <label>Name:
+                <input type="text" name="name">
+            </label>
+
+            <br>
+
+            <label>Age:
+                <input type="radio" name="age" value="<18">&lt;18
+                <input type="radio" name="age" value="19-35">19-35
+                <input type="radio" name="age" value="36-48">36-48
+                <input type="radio" name="age" value=">49">&gt;49
+            </label>
+
+            <br>
+
+            <label>Profession:
+                <input type="text" name="profession">
+            </label>
+
+            <br>
+                
+            <label>Country:
+                <select name="country">
+                    <optgroup label="Europe">
+                        <option value="Portugal">Portugal</option>
+                        <option value="Spain">Spain</option>
+                        <option value="France">France</option>
+                    </optgroup>
+                    <optgroup label="South America">
+                        <option value="Brazil">Brazil</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Peru">Peru</option>
+                    </optgroup>
+                </select>
+            </label>
+
+            <br>
+
+            <label>Interests:
+                <input type="checkbox" name="interest" value="ride a bike">Ride a bike
+                <input type="checkbox" name="interest" value="play tennis">Play tennis
+                <input type="checkbox" name="interest" value="play videogames">Play videogames
+                <input type="checkbox" name="interest" value="read a book">Read a book
+                <input type="checkbox" name="interest" value="watch films">Watch films
+                <input type="checkbox" name="interest" value="coding">Coding
+            </label>
+
+            <br>
+
+            <label>How did you find this website?<br>
+                <textarea name="description" rows="8" cols="50"></textarea>
+            </label>
+
+            <br>
+
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>
