@@ -1,0 +1,165 @@
+body {
+    font-family:  Verdana, Georgia, 'Times New Roman', Times, serif;
+}
+
+body > header {
+    background-color: #046DD5;
+    padding: 1em;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+body > header h1 {
+    font-size: 1.5em;
+    padding: 0.2em 0em;
+    margin: auto;
+}
+
+body > header h2 {
+    font-size: 0.7em;
+    padding: 0.2em 0em;
+    margin: auto;
+}
+
+#signup > a {
+    font-size: 0.7em;
+    padding: 0.2em 0em;
+    margin: auto;
+}
+
+#signup a + a::before {
+    content: "|";
+    margin: 0.8em;
+}
+
+#menu > ul {
+    margin: 0em;
+    padding: 0em;
+    text-align: center;
+    list-style-type: disc;
+}
+
+#menu > input {
+    display: none;
+}
+
+#menu > ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#menu > ul li {
+    padding: 1em;
+    border-top-width: 0.3em;
+    border-top-style: solid;
+}
+
+#menu > ul :nth-child(1) {
+    border-top-color: #E1493E;
+}
+
+#menu > ul :nth-child(2) {
+    border-top-color: #8ABA56;
+}
+
+#menu > ul :nth-child(3) {
+    border-top-color: #5B4282;
+}
+
+#menu > ul :nth-child(4) {
+    border-top-color: #FF8932;
+}
+
+#menu > ul :nth-child(5) {
+    border-top-color: #19B6E9;
+}
+
+#menu > ul :nth-child(6) {
+    border-top-color: #E84C8B;
+}
+
+#related {
+    background-color: #2A2F33;
+    color: white;
+    padding: 1em;
+}
+
+#related a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+#related p {
+    font-size: 0.9em;
+}
+
+#news img {
+    position: relative;
+    width: 100%;
+}
+
+#news article {
+    padding-top: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#news article header {
+    position: absolute;
+    z-index: 1;
+    width: 18%;
+}
+
+#news article header h1 {
+    margin: 1em;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    text-shadow: 0.5em 0.5em 0.5em black;
+}
+
+#news article header h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#news article p:first-of-type::first-letter {
+    font-size: 200%;
+}
+
+#news article p {
+    margin: 1%;
+}
+
+#news article footer {
+    background-color: #F4655F;
+    padding: 1em;
+    color: white;
+    font-size: 0.8em;
+    font-family:  Verdana, 'Times New Roman', Times, serif;
+}
+
+.author::before {
+    content: "By ";
+}
+
+.tags a {
+    color: white;
+}
+
+.date {
+    padding: 1em;
+}
+
+.comments {
+    color: white;
+    text-decoration-color: white;
+}
+
+.comments::after {
+    content: " comments";
+}
+
