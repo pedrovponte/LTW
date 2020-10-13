@@ -1,0 +1,61 @@
+body {
+    width: 60em;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#comments > article.comment > span.user {
+    font-style: italic;
+    font-weight: 600;
+}
+
+#comments > article.comment > span.user::after {
+    content: " said";
+    font-style: normal;
+}
+
+#comments > article.comment > span.date {
+    float: right;
+    font-weight: 600;
+}
+
+#comments > article.comment > p {
+    background-color: #eeeeee;
+    font-family: Georgia;
+    padding: 1em;
+    margin-left: 0em;
+    padding-top: 0.2em;
+}
+
+#comments > article.comment > p::before {
+    content: "\201C";
+    font-size: 3em;
+    opacity: 0.2;
+    
+}
+
+#comments > form {
+    background-color: #eeeeee;
+    padding-bottom: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+#comments > form > h2 {
+    font-size: 1.1em;
+}
+
+#news form textarea {
+    width: 55em;
+    height: 5em;
+}
+
+#news form input[type=submit] {
+    background-color: #000000;
+    color: #ffffff;
+    width: 5em;
+    margin-top: 1em;
+    padding: 1em 0;
+}
+
