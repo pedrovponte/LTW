@@ -1,0 +1,47 @@
+body {
+    width: 60em;
+    background-color: #EDEFF0;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 80% 1fr;
+    grid-template-rows: auto auto auto 1fr;
+}
+
+body > header div#signup {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    text-align: right;
+    justify-self: end;
+    align-self: center;
+    margin-right: 1em;
+}
+
+#menu > ul {
+    display: flex;
+    background-color: white;
+    list-style-type:none
+}
+
+#menu > ul > li{
+    flex-grow: 1;   
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+#related {
+    grid-column-start: 2;
+    grid-row-end: span 3;
+    grid-column: 2;
+}
+
+#menu{
+    grid-column: 1;
+}
+
+body > footer{
+    grid-column: 1;
+}
