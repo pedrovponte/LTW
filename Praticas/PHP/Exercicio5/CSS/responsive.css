@@ -1,0 +1,14 @@
+@media (max-width: 60em) {
+    body {
+        display: block;
+    }
+
+    aside {
+        display: none;
+    }
+
+    body > #news {
+        margin-right: 0;
+    }
+}
+
