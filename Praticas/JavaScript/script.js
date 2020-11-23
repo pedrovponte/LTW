@@ -54,4 +54,3 @@ form.addEventListener('submit', function(e) {
     quantityInput.addEventListener()
 })
 
-let 
